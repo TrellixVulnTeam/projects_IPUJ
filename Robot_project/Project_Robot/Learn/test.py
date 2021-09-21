@@ -66,22 +66,29 @@ a = [1, 3, 5, 6, 3, 5, 6, 1]
 
 
 
-my_list = [-15, -26, 15, 1, 23, -64, 23, 76]
-new_list = []
-
-while my_list:
-    y = my_list[0]
-    for x in my_list:
-        if x < y:
-            y = x
-    new_list.append(y)
-    my_list.remove(y)
-
-print(new_list)
-
-x = {'Hello':'ajsa', 'asahs':'sdahs','sas':'dsds'}
-if 'asahs' in x.keys():
-    print(x['asahs'])
+# my_list = [-15, -26, 15, 1, 23, -64, 23, 76]
+# new_list = []
+#
+# while my_list:
+#     y = my_list[0]
+#     for x in my_list:
+#         if x < y:
+#             y = x
+#     new_list.append(y)
+#     my_list.remove(y)
+#
+# print(new_list)
+#
+# x = {'Hello':'ajsa', 'asahs':'sdahs','sas':'dsds'}
+# if 'asahs' in x.keys():
+#     print(x['asahs'])
+#
+# num = 1
+# for i in range(1, 5):
+#     for j in range(1, i+1):
+#         print(num, end='')
+#     num = num + 1
+#     print("\r")
 
 num = 1
 for i in range(1, 5):
