@@ -1,11 +1,13 @@
 
-a = [1, 3, 5, 6, 3, 5, 6, 1]
+# a = [1, 3, 5, 6, 3, 5, 6, 1]
 
 # print(a.count('l'))
 # b = len(a)
 # for x in range(b - 1, -1, -1):
 #     word1 = (a[x])
 #     print(word1, end='')
+
+
 # b=[]
 # for x in a:
 #     if x not in b:
@@ -90,10 +92,69 @@ a = [1, 3, 5, 6, 3, 5, 6, 1]
 #     num = num + 1
 #     print("\r")
 
-num = 1
-for i in range(1, 5):
-    for j in range(1, i+1):
-        print(num, end='')
-    num = num + 1
-    print("\r")
+# num = 1
+# for i in range(1, 5):
+#     for j in range(1, i+1):
+#         print(num, end='')
+#     num = num + 1
+#     print("\r")
+#
 
+# x = [-10, 11, 23, -68]
+# for i in range(len(x)):
+#     for j in range(len(x)):
+#         if x[i] < x[j]:
+#             x[j], x[i] = x[i], x[j]
+#         pass
+#     pass
+#
+# print(x)
+
+
+#********************************************************
+
+# Python3 program to swap first and last element of a list
+#
+# newList = [12, 35, 9, 56, 24]
+# newList[0], newList[-1] = newList[-1], newList[0]
+# print(newList)
+
+#********************************************************
+
+# Python code to demonstrate length of list using naive method
+# test_list = [1, 4, 5, 7, 8, 10]
+# counter = 0
+# for i in range(len(test_list)):
+#     counter = counter + 1
+# print(counter)
+
+#********************************************************
+
+#code to reverse a string
+
+# test_list = "Helloworld"
+# a = ''
+# for i in range(len(test_list)-1, -1, -1):
+#     b = test_list[i]
+#     a = a + b
+# print(a)
+
+#********************************************************
+
+#code to reverse a string
+
+# test_list = [2,3,1,3,49,41,15,64]
+# a = []
+# for y in range(len(test_list)-1, -1, -1):
+#     x = test_list[y]
+#     a.append(x)
+# print(a)
+
+#********************************************************
+
+num =1
+for i in range(4):
+    for j in range(i+1):
+        print('*', end='')
+    num = num +1
+    print('\r')
