@@ -96,5 +96,4 @@ for i in range(1, 5):
         print(num, end='')
     num = num + 1
     print("\r")
-    ok
 
