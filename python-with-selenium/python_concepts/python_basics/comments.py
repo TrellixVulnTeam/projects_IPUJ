@@ -1,5 +1,4 @@
 #jsvej
-"""shfwhfwhfkw"""
-"""djbsjdsjdnjs"""
-"""ghhiiiihihihij"""
-"""gugiuiuighi"""
+"""Hello_world"""
+x = """Hello_World"""
+print(x)
