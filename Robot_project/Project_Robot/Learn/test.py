@@ -79,9 +79,9 @@ a = [1, 3, 5, 6, 3, 5, 6, 1]
 #
 # print(new_list)
 
-# x = {'Hello':'ajsa', 'asahs':'sdahs','sas':'dsds'}
-# if 'asahs' in x.keys():
-#     print(x['asahs'])
+x = {'Hello':'ajsa', 'asahs':'sdahs','sas':'dsds'}
+if 'asahs' in x.keys():
+    print(x['asahs'])
 
 num = 1
 for i in range(1, 5):
@@ -89,3 +89,4 @@ for i in range(1, 5):
         print(num, end='')
     num = num + 1
     print("\r")
+
