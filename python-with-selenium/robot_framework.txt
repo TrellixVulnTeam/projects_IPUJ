@@ -1,0 +1,12 @@
+ROBOT FRAMEWORK
+
+
+"select radio box" requires name and value attributes
+"select checkbox"  reguires only attribute
+"click button" will work only if tag id is button or "type" attribute is submit
+"click link" must contain link attribute
+"click element"  is universal for all elements
+"Get location"  is used to get the links open in browser
+"open context menu"  used for right click
+"get text"  used to get the text in the attribute
+"get element attribute" used to get the attribute value 
