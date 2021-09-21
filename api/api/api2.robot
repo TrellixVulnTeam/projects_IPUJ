@@ -15,3 +15,4 @@ test case 2
     ${response}    get on session    get-request    /api/users    params=&{dict}
     log to console    status is ${response.status_code}
     log to console    content is  ${response.content}
+

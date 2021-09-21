@@ -1,7 +1,7 @@
 def cal():
     try:
         a=100
-        b=20
+        b=0
         c=a/b
         print(c)
     except :
