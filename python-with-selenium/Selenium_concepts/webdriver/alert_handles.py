@@ -28,5 +28,6 @@ class ScrollingElements():
         confirmbtn.accept()
         sleep(5)
         confirmbtn.accept()
+        confirmbtn.accept()
 e=ScrollingElements()
 e.test()
