@@ -4,8 +4,9 @@ Resource    ../Resources/browser.robot
 Library    String
 Library    Collections
 Library    Dialogs
-Test Setup    open-browser
-Test Teardown    close-browser
+Library    DateTime
+#Test Setup    open-browser
+#Test Teardown    close-browser
 *** Variables ***
 
 *** Keywords ***
@@ -131,7 +132,7 @@ Test Teardown    close-browser
 #    ${check}    get from dictionary    ${dict}    last
 #    log to console    ${check}
 
-Test case 11
+#Test case 11
 #    ${test}    get value from user   enter valuest
 #    log to console    ${test}
 #    ${test1}    get value from user   enter value    default_value=check
@@ -141,7 +142,18 @@ Test case 11
 #    log to console    ${test2}
 #    ${test3}    get selections from user    select from below    Hello    World
 #    log to console    ${test3}
-     title should be
+#take time
+#    ${current}    get current date    result_format=%d-%m-%Y
+#    log to console   ${current}
+take time
+    ${current}    current date
+    log to console   ${current}
+
+
+
+
+
+
 
 
 

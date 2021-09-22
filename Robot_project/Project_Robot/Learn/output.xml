@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210922 09:04:09.897" rpa="false" schemaversion="2">
+<suite id="s1" name="Test" source="D:\Pycharm\Robot_project\Project_Robot\Learn\test.robot">
+<test id="s1-t1" name="take time">
+<kw name="current date" library="browser">
+<var>${current}</var>
+<kw name="Get Current Date" library="DateTime">
+<var>${current}</var>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<msg timestamp="20210922 09:04:10.336" level="INFO">${current} = 2021-09-22 09:04:10.336</msg>
+<status status="PASS" starttime="20210922 09:04:10.336" endtime="20210922 09:04:10.336"/>
+</kw>
+<kw name="Add Time To Date" library="DateTime">
+<var>${add}</var>
+<arg>${current}</arg>
+<arg>increment=${increment}</arg>
+<arg>result_format=%d/%m/%Y</arg>
+<doc>Adds time to date and returns the resulting date.</doc>
+<msg timestamp="20210922 09:04:10.341" level="FAIL">ValueError: Invalid time string 'increment=365 days'.</msg>
+<status status="FAIL" starttime="20210922 09:04:10.336" endtime="20210922 09:04:10.341"/>
+</kw>
+<status status="FAIL" starttime="20210922 09:04:10.335" endtime="20210922 09:04:10.342"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${current}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210922 09:04:10.342" endtime="20210922 09:04:10.342"/>
+</kw>
+<status status="FAIL" starttime="20210922 09:04:10.334" endtime="20210922 09:04:10.342">ValueError: Invalid time string 'increment=365 days'.</status>
+</test>
+<status status="FAIL" starttime="20210922 09:04:09.900" endtime="20210922 09:04:10.343"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
