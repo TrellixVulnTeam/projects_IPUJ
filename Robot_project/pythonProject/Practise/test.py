@@ -98,11 +98,36 @@
 
 num =1
 
-for i in range(1,5):
-    for j in range(1,i+1):
-        print(num, end='')
-    num = num + 1
-    print('\r')
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(num, end='')
+#     num = num + 1
+#     print('\r')
 
 # #********************************************************
 
+#code for removing duplicates in string
+
+a = "Helloworld"
+b = ''
+for i in a:
+    if i not in b:
+        b = b + i
+print(b)
+
+
+# #********************************************************
+
+#code for removing duplicates in list
+
+a = [1,3,5,'Hello','mike','test',98, 1, 3, 'mike']
+
+b = []
+
+for i in a:
+    if i not in b:
+        b.append(i)
+
+print(b)
+
+# #********************************************************
