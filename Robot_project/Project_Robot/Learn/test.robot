@@ -148,6 +148,8 @@ Library    DateTime
 take time
     ${current}    current date
     log to console   ${current}
+    select from list by index
+
 
 
 
