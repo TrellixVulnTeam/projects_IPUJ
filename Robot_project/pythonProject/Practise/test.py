@@ -132,3 +132,17 @@ num =1
 
 #********************************************************
 
+#Code for get index of non repeatitive variables
+
+
+a = ['A','B','C','D','A','A','B','E','A','Z']
+b= []
+
+for i in a:
+    if i not in b:
+        x = a.index(i)
+        print(i,':',str(x))
+        b.append(i)
+
+
+print(b)
