@@ -96,7 +96,7 @@
 
 #code for pattern
 
-num =1
+# num =1
 
 # for i in range(1,5):
 #     for j in range(1,i+1):
@@ -135,14 +135,17 @@ num =1
 #Code for get index of non repeatitive variables
 
 
-a = ['A','B','C','D','A','A','B','E','A','Z']
-b= []
+# a = ['A','B','C','D','A','A','B','E','A','Z']
+# b= []
+#
+# for i in a:
+#     if i not in b:
+#         x = a.index(i)
+#         print(i,':',str(x))
+#         b.append(i)
+#
+#
+# print(b)
+#********************************************************
 
-for i in a:
-    if i not in b:
-        x = a.index(i)
-        print(i,':',str(x))
-        b.append(i)
 
-
-print(b)

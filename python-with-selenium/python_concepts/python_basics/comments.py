@@ -4,9 +4,13 @@
 # print(x)
 
 
-num = 1
-for i in range(1,5):
-    for j in range(1, i+1):
-        print(num, end='')
-    num = num + 1
-    print('\r')
+value = "sjdjsd"
+
+x = "dshd"+" : "+"sdsd"+" : "+value+"."
+y = "dshd : sdsd : sjdjsd."
+
+if x==y:
+    print("ada")
+
+
+print("\"illegal\"")
