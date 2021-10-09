@@ -1,5 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
+Library    DateTime
 *** Variables ***
 
 *** Keywords ***
@@ -11,4 +12,10 @@ open-browser
 
 close-browser
     close all browsers
+
+current date
+    [Arguments]    ${increment}=365 days
+    ${current}    get current date    increment=${increment}   result_format=%d/%m/%Y
+    [Return]    ${current}
+
 
