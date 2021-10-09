@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../Resources/browser.robot
+Resource   ../Resources/browser.robot
 Library    String
 Library    Collections
 Library    Dialogs
